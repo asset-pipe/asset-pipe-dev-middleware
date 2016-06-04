@@ -1,0 +1,34 @@
+{
+  "name": "asset-pipe-mid",
+  "version": "1.0.0",
+  "author": {
+    "name": "Trygve Lie",
+    "email": "post@trygve-lie.com"
+  },
+  "description": "Asset pipe Express middleware",
+  "main": "./lib/middleware.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:asset-pipe/asset-pipe-mid.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "contributors": [
+    {
+      "name": "Trygve Lie",
+      "email": "post@trygve-lie.com"
+    }
+  ],
+  "engines": {
+    "node" : "6.x"
+  },
+  "bugs": {
+    "url": "https://github.com/asset-pipe/asset-pipe-mid/issues"
+  },
+  "licenses": ["MIT"],
+  "dependencies": {
+    "JSONStream": "1.1.1",
+    "pump": "1.0.1"
+  }
+}
