@@ -29,6 +29,8 @@
   "licenses": ["MIT"],
   "dependencies": {
     "JSONStream": "1.1.1",
+    "request": "2.72.0",
+    "express": "4.13.4",
     "pump": "1.0.1"
   }
 }
