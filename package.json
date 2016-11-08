@@ -28,9 +28,11 @@
   },
   "licenses": ["MIT"],
   "dependencies": {
-    "JSONStream": "1.1.1",
-    "request": "2.72.0",
-    "express": "4.13.4",
+    "asset-pipe-js-reader": "1.0.0-alpha.1",
+    "asset-pipe-js-writer": "1.0.0-alpha.1",
+    "JSONStream": "1.2.1",
+    "request": "2.78.0",
+    "express": "4.14.0",
     "pump": "1.0.1"
   }
 }
