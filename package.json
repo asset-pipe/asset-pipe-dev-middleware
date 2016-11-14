@@ -21,18 +21,16 @@
     }
   ],
   "engines": {
-    "node" : "6.x"
+    "node" : "7.x"
   },
   "bugs": {
     "url": "https://github.com/asset-pipe/asset-pipe-mid/issues"
   },
   "licenses": ["MIT"],
   "dependencies": {
-    "asset-pipe-js-reader": "1.0.0-alpha.1",
     "asset-pipe-js-writer": "1.0.0-alpha.1",
     "JSONStream": "1.2.1",
     "request": "2.78.0",
-    "express": "4.14.0",
-    "pump": "1.0.1"
+    "express": "4.14.0"
   }
 }
