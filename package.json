@@ -30,11 +30,11 @@
   "dependencies": {
     "asset-pipe-js-writer": "1.0.0-alpha.2",
     "JSONStream": "1.2.1",
-    "request": "2.78.0",
+    "request": "2.79.0",
     "express": "4.14.0"
   },
   "devDependencies": {
-    "tap": "8.0.0"
+    "tap": "8.0.1"
   },
   "scripts": {
     "test": "tap test/*.js"
