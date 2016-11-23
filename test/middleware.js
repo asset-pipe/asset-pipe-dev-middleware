@@ -25,5 +25,6 @@ const b = ['d', 'a','b','c'];
 
 
 tap.test('not a real test', (t) => {
+    const mid = new Mid();
     t.end();
 });
