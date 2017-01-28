@@ -31,7 +31,7 @@
     "asset-pipe-js-writer": "1.0.0-alpha.4",
     "dev-null": "0.1.1",
     "emits": "3.0.0",
-    "express": "4.14.0",
+    "express": "4.14.1",
     "extend": "3.0.0",
     "watchify": "3.9.0"
   },
