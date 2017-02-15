@@ -1,5 +1,3 @@
-"use strict";
-
-export function hello() {
+export function hello () {
     return 'hello world';
 }

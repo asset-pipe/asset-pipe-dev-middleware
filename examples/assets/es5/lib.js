@@ -1,5 +1,3 @@
-"use strict";
+'use strict';
 
-module.export.hello = () => {
-    return 'hello world';
-}
+module.export.hello = () => 'hello world';

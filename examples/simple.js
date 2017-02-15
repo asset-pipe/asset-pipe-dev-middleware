@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 const express = require('express');
 const app = express();
@@ -15,5 +15,5 @@ assets.on('update', (ids) => {
 app.use(assets.router);
 
 const server = app.listen(8080, () => {
-    console.log('http server - Bundle at: http://localhost:' + server.address().port + '/js/');
+    console.log(`http server - Bundle at: http://localhost:${server.address().port}/js/`);
 });
