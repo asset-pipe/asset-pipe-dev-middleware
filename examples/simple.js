@@ -12,7 +12,7 @@ assets.on('update', (ids) => {
     });
 });
 
-app.use(assets.router);
+app.use(assets.router());
 
 const server = app.listen(8080, () => {
     console.log(`http server - Bundle at: http://localhost:${server.address().port}/js/`);
