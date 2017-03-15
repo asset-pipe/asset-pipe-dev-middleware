@@ -21,9 +21,9 @@ app.use(assets.middelware());
 app.use(assets.router());
 
 // print where bundle is
-app.get('/', (req, res, next) => {
+app.get('/', (req, res) => {
     res.status(200).send(`JS bunde is at: ${res.locals.js}`);
-})
+});
 
 // start server
 const server = app.listen(8080, () => {
