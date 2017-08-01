@@ -36,7 +36,7 @@
     "babelify": "7.3.0",
     "eslint": "^4.1.1",
     "eslint-config-finn": "^2.0.0",
-    "tap": "10.7.0"
+    "tap": "10.7.1"
   },
   "scripts": {
     "lint": "eslint .",
