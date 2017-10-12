@@ -29,7 +29,7 @@
     "asset-pipe-js-writer": "1.0.0-beta.5",
     "dev-null": "0.1.1",
     "emits": "3.0.0",
-    "express": "4.15.3",
+    "express": "4.16.2",
     "watchify": "3.9.0"
   },
   "devDependencies": {
@@ -39,7 +39,7 @@
     "cz-conventional-changelog": "^2.1.0",
     "eslint": "^4.11.0",
     "eslint-config-finn": "^3.0.0",
-    "eslint-config-finn-prettier": "^3.0.1",
+    "eslint-config-finn-prettier": "^3.0.0",
     "husky": "^0.14.3",
     "jest": "^21.2.1",
     "lint-staged": "^5.0.0",
