@@ -1,7 +1,11 @@
 {
   "root": true,
-  "extends": [
-    "finn",
-    "finn/node"
-  ]
+  "extends": ["finn", "finn/node", "finn-prettier"],
+  "parserOptions": {
+    "ecmaVersion": 2017
+  },
+  "env": {
+    "node": true,
+    "jest": true
+  }
 }
