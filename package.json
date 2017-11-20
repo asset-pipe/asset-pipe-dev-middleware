@@ -1,5 +1,5 @@
 {
-  "name": "asset-pipe-dev-middleware",
+  "name": "@asset-pipe/dev-middleware",
   "version": "0.0.0-development",
   "author": {
     "name": "Trygve Lie",
@@ -22,6 +22,9 @@
     "url": "https://github.com/asset-pipe/asset-pipe-mid/issues"
   },
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "asset-pipe-js-writer": "1.0.0-beta.5",
     "dev-null": "0.1.1",
