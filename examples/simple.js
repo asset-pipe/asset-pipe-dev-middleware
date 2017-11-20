@@ -8,8 +8,8 @@ const app = express();
 const assets = new Assets('./assets/es5/main.js');
 
 // listen for events
-assets.on('update', (ids) => {
-    ids.forEach((id) => {
+assets.on('update', ids => {
+    ids.forEach(id => {
         console.log('updated:', id);
     });
 });
@@ -27,5 +27,7 @@ app.get('/', (req, res) => {
 
 // start server
 const server = app.listen(8080, () => {
-    console.log(`http server - Bundle at: http://localhost:${server.address().port}/js/`);
+    console.log(
+        `http server - Bundle at: http://localhost:${server.address().port}/js/`
+    );
 });

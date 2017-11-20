@@ -5,7 +5,6 @@
 const Mid = require('../');
 const tap = require('tap');
 
-
 // const sourceStream = (arr) => new stream.Readable({
 //     objectMode: false,
 //     read (n) {
@@ -19,8 +18,7 @@ const tap = require('tap');
 // const a = ['a', 'b', 'c'];
 // const b = ['d', 'a', 'b', 'c'];
 
-
-tap.test('not a real test', (t) => {
+tap.test('not a real test', t => {
     const mid = new Mid();
     console.log(mid);
     t.end();

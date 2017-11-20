@@ -9,8 +9,8 @@ const assets = new Assets('./assets/es6/main.js');
 
 assets.transform(babelify, { presets: ['es2015'] });
 
-assets.on('update', (ids) => {
-    ids.forEach((id) => {
+assets.on('update', ids => {
+    ids.forEach(id => {
         console.log('updated:', id);
     });
 });
@@ -18,5 +18,7 @@ assets.on('update', (ids) => {
 app.use(assets.router());
 
 const server = app.listen(8080, () => {
-    console.log(`http server - Bundle at: http://localhost:${server.address().port}/js/`);
+    console.log(
+        `http server - Bundle at: http://localhost:${server.address().port}/js/`
+    );
 });
