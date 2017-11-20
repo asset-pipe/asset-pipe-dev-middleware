@@ -1,6 +1,6 @@
 {
   "name": "asset-pipe-dev-middleware",
-  "version": "1.0.0-beta.3",
+  "version": "0.0.0-development",
   "author": {
     "name": "Trygve Lie",
     "email": "post@trygve-lie.com"
@@ -40,14 +40,17 @@
     "husky": "^0.14.3",
     "jest": "^21.2.1",
     "lint-staged": "^5.0.0",
-    "prettier": "^1.8.2"
+    "prettier": "^1.8.2",
+    "semantic-release": "^8.2.0"
   },
   "scripts": {
     "lint": "eslint .",
     "test": "jest --coverage",
     "lint:format": "eslint --fix .",
     "precommit": "lint-staged",
-    "cm": "git-cz"
+    "cm": "git-cz",
+    "semantic-release":
+      "semantic-release pre && npm publish && semantic-release post"
   },
   "files": ["lib"],
   "jest": {
