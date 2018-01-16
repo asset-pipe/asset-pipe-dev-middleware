@@ -47,7 +47,8 @@
     "husky": "^0.14.3",
     "lint-staged": "^6.0.0",
     "prettier": "^1.9.2",
-    "semantic-release": "^12.2.2"
+    "semantic-release": "^12.2.2",
+    "travis-deploy-once": "^4.3.1"
   },
   "scripts": {
     "lint": "eslint .",
@@ -55,7 +56,8 @@
     "lint:format": "eslint --fix .",
     "precommit": "lint-staged",
     "cm": "git-cz",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
   },
   "files": [
     "lib"
