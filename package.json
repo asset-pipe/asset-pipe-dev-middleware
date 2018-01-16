@@ -52,7 +52,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "test": "npmr run lint",
+    "test": "npm run lint",
     "lint:format": "eslint --fix .",
     "precommit": "lint-staged",
     "cm": "git-cz",
