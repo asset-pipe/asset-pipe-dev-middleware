@@ -28,7 +28,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@asset-pipe/css-writer": "^2.0.2",
+    "@asset-pipe/css-writer": "^2.0.3",
     "@asset-pipe/js-writer": "^2.0.2",
     "dev-null": "^0.1.1",
     "emits": "^3.0.0",
